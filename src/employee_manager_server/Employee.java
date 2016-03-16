@@ -2,6 +2,11 @@ package employee_manager_server;
 
 class Employee extends Person {
 	
+	public Employee(String name, String email) {
+		super(name, email);
+	
+	}
+
 	int salary;
 	String jobTitle;
 	

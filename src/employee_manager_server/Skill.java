@@ -6,5 +6,12 @@ class Skill {
 	String description;
 	double rate;
 	
+	public Skill(String name, String description) {
+		super();
+		this.name = name;
+		this.description = description;
+	}
+	
+	
 
 }

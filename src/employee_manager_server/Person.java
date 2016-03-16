@@ -9,6 +9,13 @@ class Person {
 	List<Skill> skillset;
 	
 	
+	
+	public Person(String name, String email) {
+		super();
+		this.name = name;
+		this.email = email;
+	}
+
 	public String getName() {
 		return name;
 	}
