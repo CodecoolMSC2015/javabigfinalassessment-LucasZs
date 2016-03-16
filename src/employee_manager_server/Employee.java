@@ -1,14 +1,15 @@
 package employee_manager_server;
 
-class Employee extends Person {
+public class Employee extends Person {
+	
+	private int salary;
+	private String jobTitle;
+	
 	
 	public Employee(String name, String email) {
 		super(name, email);
 	
 	}
-
-	int salary;
-	String jobTitle;
 	
 	public int getSalary() {
 		return salary;

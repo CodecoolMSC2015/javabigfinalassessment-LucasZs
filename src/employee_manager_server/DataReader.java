@@ -2,10 +2,10 @@ package employee_manager_server;
 
 import java.util.Set;
 
-class DataReader {
+public class DataReader {
 
-	String searchCriteria;
-	SearchType searchType;
+	private String searchCriteria;
+	private SearchType searchType;
 	
 	
 	public void setSearchCriteria(String searchCriteria) {

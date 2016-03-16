@@ -3,10 +3,10 @@ package employee_manager_server;
 import java.util.List;
 import java.util.Set;
 
-class CSVDataReader extends DataReader{
+public class CSVDataReader extends DataReader{
 
-	String CSVFilePath;
-	List<Person> persons;
+	private String CSVFilePath;
+	private List<Person> persons;
 	
 	
 		
@@ -15,10 +15,8 @@ class CSVDataReader extends DataReader{
 		CSVFilePath = cSVFilePath;
 	}
 
-
-
-	Set<Person> getPersons() {
-		
-		return null;
+	public Set<Person> getPersons() {
+		return (Set) persons;
 	}
+
 }

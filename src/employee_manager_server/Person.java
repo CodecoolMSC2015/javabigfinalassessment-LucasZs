@@ -1,12 +1,13 @@
 package employee_manager_server;
 
+import java.io.Serializable;
 import java.util.List;
 
-class Person {
+public class Person implements Serializable{
 	
-	String name;
-	String email;
-	List<Skill> skillset;
+	private String name;
+	private String email;
+	private List<Skill> skillset;
 	
 	
 	
@@ -42,5 +43,6 @@ class Person {
 	
 	public void addSkill(Skill skill) {
 		
+		skillset.add(skill);
 	}
 }
